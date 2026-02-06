@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For My Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Hey Love ❤️</h1>
+    <p class="subtitle">Click the heart to know why I love you</p>
+
+    <button class="heart-btn" onclick="playMusic(); showLove()">❤️</button>
+
+    <div id="message" class="message"></div>
+
+    <!-- Photo Gallery -->
+    <div id="gallery" class="gallery hidden">
+      <h2>Our Moments 💕</h2>
+      <div class="photos">
+        <img src="photos/photo2.jpeg">
+        <img src="photos/photo1.jpeg">
+        <img src="photos/photo3.jpeg">
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="love.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
